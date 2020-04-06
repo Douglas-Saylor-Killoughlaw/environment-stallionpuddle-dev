@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:stallionpuddle/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:stallionpuddle/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:stallionpuddle/prow:hmacToken
+segmentWriteKey: vault:stallionpuddle:segmentWriteKey
